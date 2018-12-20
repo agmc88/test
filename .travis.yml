@@ -1,7 +1,7 @@
 langage: bash
 
 install:
-   - sudo apt-get install htop vim
+   - sudo apt-get install fish zsh
 
 script: 
    - bash main.sh test
