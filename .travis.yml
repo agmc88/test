@@ -1,12 +1,12 @@
 langage: bash
 
 install:
-   - sudo apt-get install fish zsh
+   - sudo apt-get install ksh zsh
 
 script: 
    - bash main.sh test
    - sh main.sh test
-   - fish main.sh test
+   - ksh main.sh test
    - zsh main.sh test
 
 after_success:
