@@ -3,7 +3,11 @@ langage: bash
 install:
    - sudo apt-get install htop vim
 
-script: bash main.sh test
+script: 
+   - bash main.sh test
+   - sh main.sh test
+   - fish main.sh test
+   - zsh main.sh test
 
 after_success:
    - echo "Terminé avec succés"
