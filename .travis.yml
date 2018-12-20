@@ -1,3 +1,9 @@
 langage: bash
 
-script: ./main.sh test
+install:
+   - apt-get install htop vim
+
+script: bash main.sh test
+
+after_success:
+   - echo "Terminé avec succés"
